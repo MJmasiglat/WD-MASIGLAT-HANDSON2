@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Teemo</title>
 </head>
 <body>
-    <img src="./assets/hero2/bg4.jpeg" alt="background image" class="bg">
+    <video class="bg" autoplay loop muted>
+        <source src="./assets/vids/teemo-bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
     <div class="header-buttons-hero">
         <img class="lol-logo" src="./assets/hero2/lollogo.png" alt="teemo">   
         <nav>
@@ -28,13 +32,50 @@
         <div class="hero-description">
             <h2>Teemo, The Swift Scout</h2>
             <p>Teemo is a yordle with an unbreakable sense of morality and determination. Despite his small stature, Teemo never hesitates to embark on dangerous missions, relying on his wits and unique abilities to outmaneuver his enemies.</p>
-            <h3>Skills:</h3>
-            <ul>
-                <li><strong>Blinding Dart:</strong> Teemo shoots a dart at an enemy, blinding them and causing them to miss their attacks.</li>
-                <li><strong>Move Quick:</strong> Teemo passively gains increased movement speed and can activate this ability to gain an even greater speed boost for a short time.</li>
-                <li><strong>Toxic Shot:</strong> Teemo's basic attacks poison the target, dealing damage over time.</li>
-                <li><strong>Noxious Trap:</strong> Teemo places an explosive trap that detonates when an enemy steps on it, poisoning and slowing all nearby enemies.</li>
-            </ul>
+            <div class="skills">
+                <div class="skill">
+                    <i class="fas fa-dart"></i>
+                    <h3>Blinding Dart</h3>
+                    <p>Teemo shoots a dart at an enemy, blinding them and causing them to miss their attacks.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fas fa-running"></i>
+                    <h3>Move Quick</h3>
+                    <p>Teemo passively gains increased movement speed and can activate this ability to gain an even greater speed boost for a short time.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fas fa-biohazard"></i>
+                    <h3>Toxic Shot</h3>
+                    <p>Teemo's basic attacks poison the target, dealing damage over time.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fas fa-bomb"></i>
+                    <h3>Noxious Trap</h3>
+                    <p>Teemo places an explosive trap that detonates when an enemy steps on it, poisoning and slowing all nearby enemies.</p>
+                </div>
+
+                <!-- Additional Skills -->
+                <div class="skill">
+                    <i class="fas fa-camouflage"></i>
+                    <h3>Guerrilla Warfare</h3>
+                    <p>Teemo becomes invisible after standing still for a short period, gaining stealth and attack speed bonus.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fas fa-crosshairs"></i>
+                    <h3>Sharpshooter</h3>
+                    <p>Teemo's precision with his darts increases, giving his attacks additional range and damage.</p>
+                </div>
+
+                <div class="skill">
+                    <i class="fas fa-radar"></i>
+                    <h3>Scouting Ahead</h3>
+                    <p>Teemo sends out a scout drone to reveal a large area of the map, providing vision of enemies and traps.</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
