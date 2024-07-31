@@ -64,9 +64,15 @@ Description of the project in details.
 Guiding Question:
 
 - What is the project
+  The project is a showcase of different static and animated cards.
 - Whats the purpose
+  Showcase animated and static cards.
 - What are key components
+  Animated Cards
+  Navigation
+  Multipages
 - What technology used and how it is used
+  Technology used is HTML and CSS
 
 ### Key Components
 
@@ -239,5 +245,6 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 
-|   Title          | Purpose              |                   Link                 |
-| leagueoflegendes |  Content of Feuture  |(https://www.leagueoflegends.com/en-us/)|
+| Title | Purpose | Link |
+|-|-|-|
+| leagueoflegendes | Content of Feuture | https://www.leagueoflegends.com/en-us/|
